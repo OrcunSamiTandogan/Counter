@@ -1,17 +1,23 @@
 body {
-    background-image: url("yarn.jpeg");
-    background-size: cover;
+    background-image: url("atim.png");
+    background-size: 200px 200px; 
+    background-position: 50% -8%;
+    background-repeat: no-repeat;
+
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    height: 100vh;
+    height: 5vh;
 }
 
 .container {
-    background: white;
-    max-width: 80%;
+    background: white; 
+    position: fixed;
+    top: 108; 
+    left: 600; 
+    max-width: 20%;
     margin: auto;
     border: 3px solid black;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
 
 h1 {
@@ -42,6 +48,10 @@ button {
 
 #save-btn {
     background: #1C7947;
+}
+
+#clear-btn {
+    background: #1F5151;
 }
 
 #save-el {
